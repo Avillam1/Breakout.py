@@ -1,12 +1,12 @@
-## 🎮 Breakout - Juego Clásico en Pygame 🕹️
+# 🎮 Breakout - Juego Clásico en Pygame 🕹️
 
-## 📋 Descripción
+# 📋 Descripción
 
 Breakout es un juego arcade clásico donde controlas una paleta para rebotar una bola y destruir todos los bloques 🧱. Está desarrollado en Python con la biblioteca Pygame.
 
 ¡Diviértete rompiendo bloques y superando tus récords! 🏆
 
-## ✨ Características
+# ✨ Características
 🎯 Control preciso de la paleta con teclas A y D
 
 ⚽ Bola con rebotes realistas en paleta, bloques y paredes
@@ -19,12 +19,12 @@ Breakout es un juego arcade clásico donde controlas una paleta para rebotar una
 
 🧩 Código modular y fácil de entender
 
-## 🛠️ Requisitos
+# 🛠️ Requisitos
 Python 3.x 🐍
 
 Pygame (instalable con pip install pygame) 📦
 
-## 🚀 Instalación y Ejecución
+# 🚀 Instalación y Ejecución
 
 Clona o descarga este repositorio 📥
 
@@ -48,9 +48,9 @@ Ejecuta el juego:
 
 bash
 python breakout.py
-## 🎮 Controles
+# 🎮 Controles
 
-# Tecla	Acción
+## Tecla	Acción
 A	Mover paleta a la izquierda 👈
 D	Mover paleta a la derecha 👉
 R	Reiniciar juego 🔄
