@@ -133,9 +133,9 @@ while run:
 
     else: # Juego terminado (ganado o perdido)
         if len(bloques) == 0:
-            texto = font_gameover.render("¡Ganaste!", True, (0, 255, 0))
+            texto = font_gameover.render("¡You Win!", True, (0, 255, 0))
         else:
-            texto = font_gameover.render("¡Perdiste!", True, (255, 0, 0))
+            texto = font_gameover.render("¡You Lose!", True, (255, 0, 0))
         window.blit(texto, (SW // 2 - texto.get_width() // 2, SH // 2 - texto.get_height() // 2))
 
         texto_reiniciar = font_score.render("Presiona R para reiniciar", True, (255, 255, 255))
