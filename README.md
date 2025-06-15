@@ -2,9 +2,9 @@
 
 # 📋 Descripción
 
-Breakout es un juego arcade clásico donde controlas una paleta para rebotar una bola y destruir todos los bloques 🧱. Está desarrollado en Python con la biblioteca Pygame.
+## Breakout es un juego arcade clásico donde controlas una paleta para rebotar una bola y destruir todos los bloques 🧱. Está desarrollado en Python con la biblioteca Pygame.
 
-¡Diviértete rompiendo bloques y superando tus récords! 🏆
+## ¡Diviértete rompiendo bloques y superando tus récords! 🏆
 
 # ✨ Características
 ## 🎯 Control preciso de la paleta con teclas A y D
@@ -30,8 +30,8 @@ Breakout es un juego arcade clásico donde controlas una paleta para rebotar una
 
 ## Instala Pygame si no lo tienes:
 
-bash
-pip install pygame
+## bash
+## pip install pygame
 
 ## Coloca las imágenes en la misma carpeta que el script:
 
@@ -47,32 +47,32 @@ rectangulo.png, rectangulo2.png, rectangulo3.png 🧱
 
 ## Ejecuta el juego:
 
-bash
-python breakout.py
+## bash
+## python breakout.py
 
 # 🎮 Controles
 
 ## Tecla	Acción
-A	Mover paleta a la izquierda 👈
+## A	Mover paleta a la izquierda 👈
 
-D	Mover paleta a la derecha 👉
+## D	Mover paleta a la derecha 👉
 
-R	Reiniciar juego 🔄
+## R	Reiniciar juego 🔄
 
-Cerrar ventana	Salir del juego ❌
+## Cerrar ventana	Salir del juego ❌
 
 # 🧠 Cómo funciona el código?:
 
-GameSprite: Clase base para sprites
+## GameSprite: Clase base para sprites
 
-Player: Controla la paleta y su movimiento
+## Player: Controla la paleta y su movimiento
 
-Block: Representa los bloques a destruir
+## Block: Representa los bloques a destruir
 
-La bola rebota en paleta, bloques y bordes
+## La bola rebota en paleta, bloques y bordes
 
-El juego termina si la bola cae o si destruyes todos los bloques
+## El juego termina si la bola cae o si destruyes todos los bloques
 
-Reinicia con la tecla R para jugar otra vez 🔁
+## Reinicia con la tecla R para jugar otra vez 🔁
 
-¡Gracias por jugar! 🎉✨
+# ¡Gracias por jugar! 🎉✨
