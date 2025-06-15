@@ -35,7 +35,7 @@
 
 ## Coloca las imágenes en la misma carpeta que el script:
 
-## [![background.jpg](https://i.postimg.cc/q7Ds9Prz/background.jpg)](https://postimg.cc/7C7JzQfk)  🌌
+## [![background.jpg](https://i.postimg.cc/q7Ds9Prz/background.jpg)](https://postimg.cc/7C7JzQfk) Fondo 🌌
 
 ## player1.png 🎮
 
