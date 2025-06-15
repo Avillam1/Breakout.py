@@ -35,15 +35,19 @@
 
 ## Coloca las imágenes en la misma carpeta que el script:
 
-background.png 🌌
+## [![background.jpg](https://i.postimg.cc/q7Ds9Prz/background.jpg)](https://postimg.cc/7C7JzQfk)  🌌
 
-player1.png 🎮
+## player1.png 🎮
 
-bola.png ⚽
+## bola.png ⚽
 
-victoryplayer1.png 🏆
+## victoryplayer1.png 🏆
 
-rectangulo.png, rectangulo2.png, rectangulo3.png 🧱
+## rectangulo.png 🧱
+
+## rectangulo2.png 🧱
+
+## rectangulo3.png 🧱
 
 ## Ejecuta el juego:
 
