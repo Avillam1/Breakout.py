@@ -38,16 +38,14 @@
 ## [![background.jpg](https://i.postimg.cc/q7Ds9Prz/background.jpg)](https://postimg.cc/7C7JzQfk)  Fondo 🌌
 
 ##  [![player1.png](https://i.postimg.cc/26cCdx4p/player1.png)](https://postimg.cc/47cCsVLw)  player1 🎮
-Z
-## bola.png ⚽
 
-## victoryplayer1.png 🏆
+##  [![bola.png](https://i.postimg.cc/L6JNC8rS/bola.png)](https://postimg.cc/HVCwjdYv) bola ⚽
 
-## rectangulo.png 🧱
+## [![rectangulo.png](https://i.postimg.cc/R041BSbN/rectangulo.png)](https://postimg.cc/Mn3f0SwS) bloques superiores 🧱
 
-## rectangulo2.png 🧱
+## [![rectangulo2.png](https://i.postimg.cc/150KX7Vg/rectangulo2.png)](https://postimg.cc/SJs9trrq) rectangulo medianos 🧱
 
-## rectangulo3.png 🧱
+## [![rectangulo3.png](https://i.postimg.cc/MKZn09rf/rectangulo3.png)](https://postimg.cc/bdMYp9Pq) rectangulo inferiores 🧱
 
 ## Ejecuta el juego:
 
