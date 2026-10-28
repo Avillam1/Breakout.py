@@ -68,8 +68,10 @@ pip install pygame
 * [![rectangulo3.png](https://i.postimg.cc/MKZn09rf/rectangulo3.png)](https://postimg.cc/bdMYp9Pq) **Bloques Nivel 3** (`rectangulo3.png`)
 
 ### 🎵 Recursos de Audio:
-* `[Venezuela National Anthem (8-Bit Version & Lyrics).mp3](https://github.com/user-attachments/files/34054282/Venezuela.National.Anthem.8-Bit.Version.Lyrics.mp3` - Música del menú principal
-* `Retro_Platforming_-_David_Fesliyan` - Música durante la partida
+* `[Venezuela.National.Anthem.8-Bit.Version.Lyrics.mp3](https://github.com/user-attachments/files/34054360/Venezuela.National.Anthem.8-Bit.Version.Lyrics.mp3)
+` - Música del menú principal
+* `[SLOWER-TEMPO2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3](https://github.com/user-attachments/files/34054385/SLOWER-TEMPO2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3)
+` - Música durante la partida
 
 ---
 
