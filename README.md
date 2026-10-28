@@ -1,80 +1,116 @@
-# 🎮 Breakout - Juego Clásico de Pygame 🕹️
+# 🎮 Breakout: Edición Criolla - Juego Clásico en Pygame 🕹️
 
 # 📋 Descripción
 
-## Breakout es un juego arcade clásico donde controlas una paleta para rebotar una bola y destruir todos los bloques. Está desarrollado en Python con la biblioteca Pygame.
+## **Venebreakout** es una versión evolucionada del clásico juego arcade Breakout, desarrollada en Python utilizando la biblioteca Pygame. 
 
-## ¡Diviértete rompiendo bloques y superando tus récords! 🏆
+## En esta versión no solo juegas a rebotar la bola y destruir bloques, sino que además cuentas con un **sistema de usuarios y login con contraseñas**, guardado automático de **récords en JSON**, **menú principal**, **menú de pausa**, y **música dinámica** para el menú y el juego.
+
+## ¡Inicia sesión, supera a tus amigos y rompe tus propios récords! 🏆
+
+---
 
 # ✨ Características
-## Control preciso de la paleta con teclas A y D
 
-## Bola con rebotes realistas en paleta, bloques y paredes
+## 👤 Sistema de Usuarios y Autenticación
+* Registro de usuarios y login seguro con **ocultación de contraseñas** (`*`).
+* Cambio de cuenta rápido directamente desde la interfaz.
 
-## Tres tipos de bloques con imágenes personalizadas
+## 💾 Guardado de Récords Locales
+* Persistencia de datos en un archivo `records.json`.
+* Cada jugador guarda su puntuación máxima de manera independiente.
 
-## Sistema de puntuación que aumenta al romper bloques
+## 🎵 Música y Sonido Dinámico
+* Música del himno nacional para el menú principal.
+* Transición fluida a música de acción al iniciar la partida.
 
-## Mensajes de victoria y derrota con opción para reiniciar
+## 🎮 Jugabilidad y Físicas
+* Control preciso de la paleta con las teclas **A** y **D**.
+* Ángulo de rebote dinámico según la zona donde la bola impacta la paleta.
+* Corrección de bordes para evitar que la bola se trabe.
 
-## Código modular y fácil de entender
+## 🧱 Bloques Variados
+* Tres tipos de bloques organizados por niveles y representados con la bandera de Venezuela[Venezuela National Anthem (8-Bit Version & Lyrics).mp3](https://github.com/user-attachments/files/34054282/Venezuela.National.Anthem.8-Bit.Version.Lyrics.mp3)
+.
+
+## ⏸️ Menú de Pausa y Reinicio Rápido
+* Pausa la partida en cualquier momento con **ESC**.
+* Reinicia la partida al instante presionado **R** tras un Game Over.
+
+---
 
 # 🛠️ Requisitos
-## Python 3.x 🐍
 
-## Pygame (instalable con pip install pygame) 📦
+## Python 3.x 🐍
+## Pygame 📦 (instalable con `pip install pygame`)
+
+---
 
 # 🚀 Instalación y Ejecución
 
-## Clona o descarga este repositorio 📥
+## 1. Clona o descarga este repositorio 📥
 
-## Instala Pygame si no lo tienes:
+## 2. Instala Pygame si aún no lo tienes:
 
-## bash
-## pip install pygame
+```bash
+pip install pygame
+```
 
-## Coloca las imágenes en la misma carpeta que el script:
+## 3. Descarga y coloca las imágenes y audios en la misma carpeta del script:
 
-## [![background.jpg](https://i.postimg.cc/q7Ds9Prz/background.jpg)](https://postimg.cc/7C7JzQfk)  Fondo 
+### 🖼️ Recursos de Imagen:
+* [![menu_background.png](https://i.postimg.cc/q7Ds9Prz/background.jpg)](https://postimg.cc/7C7JzQfk) **Fondo del Menú** (`menu_background.png`)
+* [![background.jpg](https://i.postimg.cc/q7Ds9Prz/background.jpg)](https://postimg.cc/7C7JzQfk) **Fondo del Juego** (`background.png`)
+* [![player1.png](https://i.postimg.cc/26cCdx4p/player1.png)](https://postimg.cc/47cCsVLw) **Jugador / Paleta** (`player.png`)
+* [![bola.png](https://i.postimg.cc/L6JNC8rS/bola.png)](https://postimg.cc/HVCwjdYv) **Bola** (`bola.png`)
+* [![rectangulo.png](https://i.postimg.cc/R041BSbN/rectangulo.png)](https://postimg.cc/Mn3f0SwS) **Bloques Nivel 1** (`rectangulo.png`)
+* [![rectangulo2.png](https://i.postimg.cc/150KX7Vg/rectangulo2.png)](https://postimg.cc/SJs9trrq) **Bloques Nivel 2** (`rectangulo2.png`)
+* [![rectangulo3.png](https://i.postimg.cc/MKZn09rf/rectangulo3.png)](https://postimg.cc/bdMYp9Pq) **Bloques Nivel 3** (`rectangulo3.png`)
 
-##  [![player1.png](https://i.postimg.cc/26cCdx4p/player1.png)](https://postimg.cc/47cCsVLw)  Jugador 
+### 🎵 Recursos de Audio:
+* `Venezuela National Anthem (8-Bit Version & Lyrics)` - Música del menú principal
+* `Retro_Platforming_-_David_Fesliyan` - Música durante la partida
 
-##  [![bola.png](https://i.postimg.cc/L6JNC8rS/bola.png)](https://postimg.cc/HVCwjdYv) bola 
+---
 
-## [![rectangulo.png](https://i.postimg.cc/R041BSbN/rectangulo.png)](https://postimg.cc/Mn3f0SwS) bloques superiores 
+## 4. Ejecuta el juego:
 
-## [![rectangulo2.png](https://i.postimg.cc/150KX7Vg/rectangulo2.png)](https://postimg.cc/SJs9trrq) rectangulo medianos 
+```bash
+python main.py
+```
 
-## [![rectangulo3.png](https://i.postimg.cc/MKZn09rf/rectangulo3.png)](https://postimg.cc/bdMYp9Pq) rectangulo inferiores 
-
-## Ejecuta el juego:
-
-## bash
-## python breakout.py
+---
 
 # 🎮 Controles
 
-## Tecla	Acción
-## A	Mover paleta a la izquierda 
+| Tecla / Acción | Pantalla | Función |
+| :--- | :--- | :--- |
+| **A** | Juego | Mover paleta a la izquierda |
+| **D** | Juego | Mover paleta a la derecha |
+| **ESC** | Juego | Pausar / Reanudar el juego |
+| **R** | Game Over | Reiniciar la partida inmediatamente |
+| **ESC** | Menús / Login | Volver al menú anterior |
+| **TAB** | Login / Cambiar Cuenta | Cambiar entre campos (Usuario / Contraseña) |
+| **Clic del Ratón** | Menús | Seleccionar botones e interactuar con la interfaz |
 
-## D	Mover paleta a la derecha 
+---
 
-## R	Reiniciar juego 
+# 🧠 ¿Cómo funciona el código?
 
-## Cerrar ventana	Salir del juego 
+## 1. **Clases de Sprites (`GameSprite`, `Player`, `Block`)**:
+* `GameSprite`: Clase base para manejar la carga de imágenes, posición y dibujado en pantalla.
+* `Player`: Maneja los límites de pantalla y movimiento lateral de la paleta.
+* `Block`: Subclase para instanciar la rejilla de bloques a destruir.
 
-# 🧠 Cómo funciona el código?:
+## 2. **Gestión de Datos (`JSON`)**:
+* Las funciones `cargar_datos()` y `guardar_datos()` leen y escriben en `records.json` de forma transparente. Si el usuario rompe su récord personal al perder o ganar, se guarda automáticamente.
 
-## GameSprite: Clase base para sprites
+## 3. **Máquina de Estados de Juego (`game_state`)**:
+* Controla en qué pantalla se encuentra el usuario: `"MENU"`, `"PANTALLA_LOGIN"`, `"PANTALLA_CAMBIAR_CUENTA"`, `"PLAYING"`, `"PAUSE"` o `"GAMEOVER"`.
 
-## Player: Controla la paleta y su movimiento
+## 4. **Música e Interfaz Dinámica**:
+* La función `reproducir_musica()` aplica un *fadeout* y cambia de pista de audio al navegar entre el menú y la partida.
 
-## Block: Representa los bloques a destruir
-
-## La bola rebota en paleta, bloques y bordes
-
-## El juego termina si la bola cae o si destruyes todos los bloques
-
-## Reinicia con la tecla R para jugar otra vez 
+---
 
 # ¡Gracias por jugar! 🎉✨
