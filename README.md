@@ -30,7 +30,7 @@
 * Corrección de bordes para evitar que la bola se trabe.
 
 ## 🧱 Bloques Variados
-* Tres tipos de bloques organizados por niveles y representados con la bandera de Venezuela[Venezuela National Anthem (8-Bit Version & Lyrics).mp3](https://github.com/user-attachments/files/34054282/Venezuela.National.Anthem.8-Bit.Version.Lyrics.mp3)
+* Tres tipos de bloques organizados por niveles y representados con la bandera de Venezuela
 .
 
 ## ⏸️ Menú de Pausa y Reinicio Rápido
@@ -68,7 +68,7 @@ pip install pygame
 * [![rectangulo3.png](https://i.postimg.cc/MKZn09rf/rectangulo3.png)](https://postimg.cc/bdMYp9Pq) **Bloques Nivel 3** (`rectangulo3.png`)
 
 ### 🎵 Recursos de Audio:
-* `Venezuela National Anthem (8-Bit Version & Lyrics)` - Música del menú principal
+* `[Venezuela National Anthem (8-Bit Version & Lyrics).mp3](https://github.com/user-attachments/files/34054282/Venezuela.National.Anthem.8-Bit.Version.Lyrics.mp3` - Música del menú principal
 * `Retro_Platforming_-_David_Fesliyan` - Música durante la partida
 
 ---
